@@ -40,6 +40,7 @@ a {
     color: #fff;
     opacity: 0.7;
     transition: 1s;
+    cursor: pointer;
   }
   ul.nav li a:hover, :active{
       opacity: 1;
