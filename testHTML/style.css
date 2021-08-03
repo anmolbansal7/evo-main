@@ -58,3 +58,24 @@ ul.nav li a {
   border-left: 0.2px solid #ffffff;
   height: 100%;
 }
+.wrapper{
+  margin-right: 10vw;
+}
+
+.btn{
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  width: 120px;
+  height: fit-content;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn p{
+  padding-right: 5%;
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  line-height: 36px;
+}

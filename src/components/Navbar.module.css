@@ -9,9 +9,9 @@ a {
   }
   .main {
     font-family: mademaze;
-    font-weight: 400;
+    font-weight: 100;
     font-size: 16px;
-    letter-spacing: 2%;
+    letter-spacing: 1.2px;
     line-height: 24px;
     padding: 0;
     width: 100vh;
@@ -26,8 +26,8 @@ a {
     -webkit-transform: rotate(90deg) translateX(100%);
   }
   ul.nav {
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 0%;
+    padding-right: 0%;
     margin: 0 auto;
     height: 11vh;
     display: flex;
@@ -38,9 +38,18 @@ a {
   
   ul.nav li a {
     color: #fff;
+    opacity: 0.7;
+    transition: 1s;
+  }
+  ul.nav li a:hover, :active{
+      opacity: 1;
   }
   .vl {
     border-left: 0.2px solid #ffffff;
+    height: 100%;
+  }
+  .vl1{
+    border-left: 0px solid #ffffff;
     height: 100%;
   }
   

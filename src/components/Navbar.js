@@ -1,20 +1,66 @@
+import { Link } from 'react-scroll';
+
 import classes from './Navbar.module.css';
 
 function Navbar(props){
     return(
         <div className={classes.main}>
             <ul className={classes.nav}>
-                <li><a href="#">HOME</a></li>
-                <div className={classes.vl}></div>
-                <li><a href="#">MISSION</a></li>
-                <div className={classes.vl}></div>
-                <li><a href="#">CHALLENGE</a></li>
-                <div className={classes.vl}></div>
-                <li><a href="#">SOLUTIONS</a></li>
-                <div className={classes.vl}></div>
-                <li><a href="#">FEATURES</a></li>
-                <div className={classes.vl}></div>
-                <li><a href="#">CONTACT US</a></li>
+                <div className={classes.vl1}></div>
+                <li><Link
+                    activeClass="active"
+                    to="landing"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}
+                >HOME</Link></li>
+            <div className={classes.vl}></div>
+                <li><Link
+                    activeClass="active"
+                    to="mission"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}
+                >MISSION</Link></li>
+            <div className={classes.vl}></div>
+                <li><Link
+                    activeClass="active"
+                    to="challenges"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}
+                >CHALLENGES</Link></li>
+            <div className={classes.vl}></div>
+                <li><Link
+                    activeClass="active"
+                    to="solutions"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}
+                >SOLUTIONS</Link></li>
+            <div className={classes.vl}></div>
+                <li><Link
+                    activeClass="active"
+                    to="features"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}
+                >FEATURES</Link></li>
+            <div className={classes.vl}></div>
+                <li><Link
+                    activeClass="active"
+                    to="contact"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}
+                >CONTACT US</Link></li>
+            <div className={classes.vl1}></div>  
             </ul>
     </div>
     )
