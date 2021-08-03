@@ -24,6 +24,7 @@ a {
     -webkit-transform-origin: top right;
     transform: rotate(90deg) translateX(100%);
     -webkit-transform: rotate(90deg) translateX(100%);
+    z-index: 1;
   }
   ul.nav {
     padding-left: 0%;

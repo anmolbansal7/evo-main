@@ -1,9 +1,15 @@
 import classes from '../components/Next.module.css';
 
-function Challenges(){
-    return(
+function Challenges() {
+    return (
         <div className={classes.box} id="challenges">
-        <h1>Challenges</h1>
+            <div className="left">
+
+            </div>
+            <div className="right">
+
+            </div>
+            <h1>Challenges</h1>
         </div>
     )
 }
