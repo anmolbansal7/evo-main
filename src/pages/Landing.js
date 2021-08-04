@@ -1,11 +1,10 @@
-import classes from '../components/Next.module.css';
+// import classes from '../components/Next.module.css';
 import './Page.css'
 import Next from '../components/Next.js';
 
 function Landing() {
     return (
-        <div className={classes.box} id="landing">
-            <div className="home">
+            <div className="home" id="landing">
                 <h2>EVO</h2>
                 <h3>Events Promotions Reimagined</h3>
                 <p>Are you tired of the same old event strategies? 
@@ -15,7 +14,6 @@ function Landing() {
                 <Next></Next>
                 
             </div>
-        </div>
     )
 }
 

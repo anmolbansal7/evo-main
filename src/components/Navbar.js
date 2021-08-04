@@ -4,7 +4,7 @@ import classes from './Navbar.module.css';
 
 function Navbar(props){
     return(
-        <div className={classes.main}>
+        <div className={classes.main} id="navbar">
             <ul className={classes.nav}>
                 <div className={classes.vl1}></div>
                 <li><Link
