@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+
 #mission,
 #challenges,
 #features,
@@ -6,52 +8,6 @@
 }
 #contact {
   background-image: url("../Assets/bg.png");
-  height: 100vh;
-}
-.home {
-  margin: 14% 10%;
-  width: 30%;
-  color: white;
-  font-family: "Helvetica Neue", Helvetica, Arial;
-}
-.mission-left {
-  width: 25%;
-  margin-top: 10%;
-  float: left;
-  margin-left: 10%;
-}
-.mission-right {
-  width: 65%;
-  float: right;
-  margin-top: 5%;
-  margin-right: -15%;
-}
-.mission-img {
-  width: 70%;
-}
-.challenges-left {
-  width: 40%;
-  float: left;
-  margin-left: 10%;
-  margin-top: 5%;
-}
-.challenges-right {
-  width: 30%;
-  float: right;
-  margin-top: 10%;
-  margin: 10%;
-}
-.c-img {
-  height: 80%;
-}
-.solutions-left {
-  width: 26%;
-  float: left;
-  margin: 10%;
-}
-.solutions-right {
-  width: 50%;
-  float: right;
 }
 h2 {
   font-style: normal;
@@ -70,8 +26,7 @@ h3 {
   /* identical to box height */
   letter-spacing: 0.02em;
   color: white;
-
-  font-family: "Helvetica Neue", Helvetica, Arial;
+  font-family: "Poppins", sans-serif;
 }
 p {
   font-style: normal;
@@ -81,35 +36,105 @@ p {
   /* or 33px */
   letter-spacing: 0.02em;
   color: white;
-
-  font-family: "Helvetica Neue", Helvetica, Arial;
+  font-family: "Poppins", sans-serif;
 }
-
-
-.mission{
+.btns {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+}
+.mission,
+.challenges,
+.solutions,
+.features,
+.contact {
   height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding: 5%;
   box-sizing: border-box;
+  padding: 5%;
 }
-
-.mission .text{
+.challenges {
+  overflow: hidden;
+}
+.mission .text {
   display: flex;
   flex-direction: column;
   width: 50%;
   padding-right: 5%;
 }
-
-.btns{
-  display: flex;
-  width: 70%;
-  justify-content: space-between;
-}
 .mission-img {
   width: 100%;
   height: auto;
+}
+.challenges .text {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 5%;
+}
+.image-c {
+  width: 50%;
+  margin-top: 15%;
+}
+.challenges-img {
+  height: 70%;
+}
+.image-features {
+  margin-top: 10%;
+  height: 80vh;
+}
+.solutions .text {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-right: 25%;
+  margin: 0%;
+}
+.image-s {
+  width: 50%;
+}
+.image-solutions {
+  height: 85vh;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+  margin-right: 10%;
+}
+input {
+  height: 30px;
+  width: 400px;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(13px);
+  border-radius: 12px;
+  border: none;
+  margin-bottom: 4%;
+  padding: 2%;
+}
+::placeholder {
+  color: #fff;
+  letter-spacing: 2px;
+}
+.contact .text {
+  width: 50%;
+}
+.send {
+  background: #5f2eea;
+  border-radius: 4px;
+  width: 200px;
+  height: 40px;
+  border: none;
+  color: white;
+  align-items: flex-end;
+}
+.message {
+  height: 200px;
 }

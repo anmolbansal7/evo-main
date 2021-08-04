@@ -6,16 +6,17 @@ import './Page.css';
 
 function Challenges() {
     return (
-        <div className={classes.box} id="challenges">
-            <div className="challenges-left">
-                <img src={challenges} alt="" className="c-img" />
+        <div className="challenges" id="challenges">
+            <div className="image-c">
+                <img src={challenges} alt="" className="challenges-img" />
             </div>
-            <div className="challenges-right">
+            <div className="text">
                 <h2>CHALLENGES</h2>
                 <p>You're planning a killer event and have spent months negotiating sponsorships, preparing speakers and getting permissions. You prepare everything only to have your Event Marketing get lost among memes on social media. </p>
-                <Back></Back>
-                <Next></Next>
-            
+                <div className="btns">
+                        <Back></Back>
+                        <Next></Next>
+                    </div>
             </div>
         </div>
     )
