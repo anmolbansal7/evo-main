@@ -4,7 +4,13 @@ import './Page.css';
 function Contact() {
     return (
         <div className={classes.box} id="contact">
-            <h1>Contact</h1>
+            <div className="contact-left">
+                <h2>CONTACT US</h2>
+                <p>Slide into our DMs for anything you wanna know</p>
+            </div>
+            <div className="contact-right">
+
+            </div>
         </div>
     )
 }
