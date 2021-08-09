@@ -17,6 +17,7 @@ h2 {
   letter-spacing: 0.02em;
   color: white;
   font-family: mademaze;
+  margin: 0;
 }
 h3 {
   font-style: normal;
@@ -43,6 +44,7 @@ p {
   width: 70%;
   justify-content: space-between;
 }
+.landing,
 .mission,
 .challenges,
 .solutions,
@@ -59,6 +61,13 @@ p {
 }
 .challenges {
   overflow: hidden;
+}
+.landing {
+  width: 50%;
+}
+.landing .text {
+  display: flex;
+  flex-direction: column;
 }
 .mission .text {
   display: flex;
