@@ -13,9 +13,15 @@ function Landing() {
                 <p>Are you tired of the same old event strategies? 
                     <br />
                     Check out Evo for an entirely new experience when it comes to scheduling your next big shindig.</p>
-                
-                <Link to={Mission}><Next></Next></Link>
-                
+                    <Link
+                    activeClass="active"
+                    to="mission"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}>
+                        <Next />
+                    </Link>
                 </div>
             </div>
     )

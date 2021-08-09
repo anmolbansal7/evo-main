@@ -6,6 +6,7 @@
   height: fit-content;
   justify-content: space-around;
   align-items: center;
+  cursor: pointer;
 }
 
 .btnp {

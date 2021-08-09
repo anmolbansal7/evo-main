@@ -1,4 +1,5 @@
 import classes from '../components/Next.module.css';
+import { Link } from 'react-scroll';
 import solutions from '../Assets/solutions.png';
 import './Page.css';
 import Next from '../components/Next.js';
@@ -15,8 +16,24 @@ function Solutions(){
                 <br /><br />
                 This app exclusively focuses on ...,</p>
                 <div className="btns">
-                        <Back></Back>
-                        <Next></Next>
+                <Link
+                    activeClass="active"
+                    to="challenges"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}>
+                      <Back />
+                  </Link>
+                  <Link
+                    activeClass="active"
+                    to="features"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}>
+                      <Next />
+                  </Link>
                 </div>
             </div>
 

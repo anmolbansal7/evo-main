@@ -1,4 +1,5 @@
 import classes from '../components/Next.module.css';
+import { Link } from 'react-scroll';
 import Next from '../components/Next.js';
 import Back from '../components/Back.js';
 import challenges from '../Assets/challenges.png';
@@ -14,8 +15,24 @@ function Challenges() {
                 <h2>CHALLENGES</h2>
                 <p>You're planning a killer event and have spent months negotiating sponsorships, preparing speakers and getting permissions. You prepare everything only to have your Event Marketing get lost among memes on social media. </p>
                 <div className="btns">
-                        <Back></Back>
-                        <Next></Next>
+                <Link
+                    activeClass="active"
+                    to="mission"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}>
+                      <Back />
+                  </Link>
+                  <Link
+                    activeClass="active"
+                    to="solutions"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}>
+                      <Next />
+                  </Link>
                     </div>
             </div>
         </div>
