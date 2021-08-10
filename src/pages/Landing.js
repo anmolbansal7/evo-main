@@ -4,26 +4,26 @@ import { Link } from 'react-scroll';
 import Next from '../components/Next.js';
 import Mission from './Mission.js';
 
-function Landing() {
+function Landing (){
     return (
-            <div className="landing" id="landing">
-                <div className="text">
+        <div className="landing" id="landing">
+            <div className="text">
                 <h2>EVO</h2>
                 <h3>Events Promotions Reimagined</h3>
-                <p>Are you tired of the same old event strategies? 
+                <p>Are you tired of the same old event strategies?
                     <br />
                     Check out Evo for an entirely new experience when it comes to scheduling your next big shindig.</p>
-                    <Link
+                <Link
                     activeClass="active"
                     to="mission"
                     spy={true}
                     smooth={true}
                     offset={0}
                     duration={500}>
-                        <Next />
-                    </Link>
-                </div>
+                    <Next />
+                </Link>
             </div>
+        </div>
     )
 }
 
