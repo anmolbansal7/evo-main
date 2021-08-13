@@ -12,7 +12,7 @@ function Challenges() {
                 <img src={challenges} alt="" className="challenges-img" />
             </div>
             <div className="text">
-                <h2>CHALLENGES</h2>
+                <h2>CHALLENGE</h2>
                 <p>You're planning a killer event and have spent months negotiating sponsorships, preparing speakers and getting permissions. You prepare everything only to have your Event Marketing get lost among memes on social media. </p>
                 <div className="btns">
                 <Link

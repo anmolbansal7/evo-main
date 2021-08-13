@@ -32,7 +32,7 @@ function Navbar(props){
                     smooth={true}
                     offset={0}
                     duration={500}
-                >CHALLENGES</Link></li>
+                >CHALLENGE</Link></li>
             <div className={classes.vl}></div>
                 <li><Link
                     activeClass="active"

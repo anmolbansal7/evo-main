@@ -12,9 +12,11 @@ function Mission() {
             <div className="mission" id="mission">
                 <div className="text">
                 <h2>MISSION</h2>
-                <h3>Tagline</h3>
-                <p>Our organization aims at bringing all the events from VIT's clubs right to your fingertips where you can not only view the details and timeliness but also register for any event.</p>
-                    <div className="btns">
+                <h3>Find your niche at VIT</h3>
+                <p>
+                Our organization aims at bringing all the events from VIT's clubs right to your fingertips where you can not only view the details and timeliness but also register for any event.
+                </p> 
+                <div className="btns">
                     <Link
                     activeClass="active"
                     to="landing"
