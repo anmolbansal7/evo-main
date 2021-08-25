@@ -5,6 +5,7 @@ import './Page.css';
 import { Link } from 'react-scroll';
 
 import Back from '../components/Back.js';
+import SocialIcons from '../components/SocialIcons.js';
 
 function ContactForm() {
   const [state, handleSubmit] = useForm("xzbyjybk");
@@ -14,6 +15,7 @@ function ContactForm() {
         <div className="text">
                 <h2>CONTACT US</h2>
                 <p>We'll get back to you shortly!</p>
+                <SocialIcons></SocialIcons>
                 <Back></Back>
         </div>
         <div className="form">
@@ -52,6 +54,7 @@ function ContactForm() {
         <div className="text">
                 <h2>CONTACT US</h2>
                 <p>Slide into our DMs for anything you wanna know</p>
+                <SocialIcons></SocialIcons>
                 <Link
                     activeClass="active"
                     to="features"

@@ -9,8 +9,8 @@
 #contact {
   background-image: url("../Assets/bg.png");
   background-repeat: no-repeat;
-  /* background-position: center; */
-  background-size: 100vw 100vh;
+  background-position: center;
+  background-size: cover;
 }
 h2 {
   font-style: normal;
@@ -47,6 +47,11 @@ p {
   width: 70%;
   justify-content: space-between;
 }
+.ftr-btns {
+  display: flex;
+  width: 35%;
+  justify-content: space-between;
+}
 .landing,
 .mission,
 .challenges,
@@ -62,13 +67,23 @@ p {
   box-sizing: border-box;
   padding: 5%;
 }
+.features{
+  padding-bottom: 0;
+}
 .challenges {
   overflow: hidden;
 }
 .landing {
-  width: 50%;
+  width: 100%;
+  background-image: url("../Assets/bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: left;
 }
 .landing .text {
+  width: 50%;
   display: flex;
   flex-direction: column;
 }
@@ -95,9 +110,18 @@ p {
 .challenges-img {
   height: 70%;
 }
+.features .text {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-right: 0;
+  margin: 0%;
+}
 .image-features {
   margin-top: 10%;
   height: 80vh;
+  margin-left: 0;
+
 }
 .solutions .text {
   display: flex;
@@ -121,6 +145,12 @@ p {
   width: 40%;
   margin-right: 10%;
 }
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
 input#email {
   height: 30px;
   width: 400px;
@@ -129,8 +159,9 @@ input#email {
   border-radius: 12px;
   border: none;
   margin-bottom: 4%;
-  padding: 2%;
+  padding: 3%;
   color: #ffffff;
+  font-weight: bold;
 }
 
 textarea#message {
@@ -141,13 +172,19 @@ textarea#message {
   border-radius: 12px;
   border: none;
   margin-bottom: 4%;
-  padding: 2%;
+  padding: 3%;
   color: #ffffff;
+  font-weight: bold;
 }
 
 ::placeholder {
   color: #fff;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-family: "poppins", sans-serif;
+}
+textarea:focus, input:focus{
+  outline: none;
 }
 .contact .text {
   width: 50%;
@@ -161,4 +198,96 @@ textarea#message {
   color: white;
   align-items: flex-end;
   cursor: pointer;
+  font-family: "poppins", sans-serif;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  html, body{
+    width: 100%;
+  }
+  .landing .text{
+    width: 100%;
+  }
+  h2, h3, p{
+    width: 100%;
+  }
+  h2{
+    font-size: 48px;
+  }
+  h3{
+    font-size: 24px;
+  }
+  p{
+    font-size: 14px;
+  }
+  .mission-img, .challenges-img, .image-features, .image-solutions{
+    display: none;
+  }
+  .landing, .mission, .challenges, .solutions{
+    width: 100%;
+    height: 100vh;
+    justify-content: left;
+    align-items: center;
+    padding: 10%;
+  }
+  .features{
+    width: 100%;
+    height: 125vh;
+    justify-content: left;
+    align-items: center;
+    padding: 10%;
+  }
+  .mission .text{
+    width: 100%;
+  }
+  .challenges .text{
+    width: 100%;
+    padding: 0;
+  }
+  .solutions .text{
+    width: 100%;
+  }
+  .features .text{
+    width: 100%;
+  }
+  .contact .text{
+    width: 100%;
+  }
+  .contact{
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    padding: 10%;
+  }
+  .contact .form{
+    width: 100%;
+  }
+  .contact .text h2{
+    font-size: 42px;
+  }
+  form{
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+  input#email, textarea#message{
+    width: 100%;
+  }
+  button.send{
+    margin-left: 45%;
+  }
+  
+ 
+
+}
+
+@media screen and (max-width: 360px) {
+  
 }
