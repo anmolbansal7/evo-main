@@ -10,11 +10,13 @@ function Solutions(){
         <div className="solutions" id="solutions">
             <div className="text">
                 <h2>SOLUTIONS</h2>
-                <p>Evo helps one explore the best of the Events enabling a full-fledged social experience with like-minded people.
-                    <br /><br />
-                Evo solves pain points associated with Promotions, like spam ignores and less reach, without sacrificing the club’s value.
-                <br /><br />
-                This app exclusively focuses on ...,</p>
+                <p>Evo helps one explore the best of the Events enabling 
+                    a full-fledged social experience with like-minded people.
+                    Evo solves pain points associated with promotions, 
+                    like spam ignores and less reach, without sacrificing the club’s value. <br />
+                    This app exclusively focuses on making it accessible 
+                    for users to search for an event of their interest.
+               </p>
                 <div className="btns">
                 <Link
                     activeClass="active"

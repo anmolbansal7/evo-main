@@ -3,16 +3,19 @@ import './Page.css'
 import { Link } from 'react-scroll';
 import Next from '../components/Next.js';
 import Mission from './Mission.js';
+import icon from '../Assets/icon.svg';
 
 function Landing (){
     return (
         <div className="landing" id="landing">
             <div className="text">
+            <img src={icon} alt="" className="logo"/>
                 <h2>EVO</h2>
                 <h3>Events Promotions Reimagined</h3>
                 <p>Are you tired of the same old event strategies?
                     <br />
-                    Check out Evo for an entirely new experience when it comes to scheduling your next big shindig.</p>
+                    Check out Evo for an entirely new experience when <br />
+                    it comes to scheduling your next big shindig.</p>
                 <Link
                     activeClass="active"
                     to="mission"

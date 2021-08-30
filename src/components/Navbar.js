@@ -1,6 +1,5 @@
 import { Link } from 'react-scroll';
 import React, { useState } from "react"
-
 import classes from './Navbar.module.css';
 
 function Navbar(props){

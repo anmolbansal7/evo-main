@@ -67,11 +67,15 @@ p {
   box-sizing: border-box;
   padding: 5%;
 }
-.features{
+.features {
   padding-bottom: 0;
+  margin-left: 0;
+  padding-left: 0;
 }
 .challenges {
   overflow: hidden;
+  margin-right: 2%;
+  margin-left: 2%;
 }
 .landing {
   width: 100%;
@@ -81,6 +85,10 @@ p {
   background-size: cover;
   display: flex;
   justify-content: left;
+}
+.logo {
+  height: 110px;
+  width: 110px;
 }
 .landing .text {
   width: 50%;
@@ -121,7 +129,6 @@ p {
   margin-top: 10%;
   height: 80vh;
   margin-left: 0;
-
 }
 .solutions .text {
   display: flex;
@@ -145,7 +152,7 @@ p {
   width: 40%;
   margin-right: 10%;
 }
-form{
+form {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -183,7 +190,8 @@ textarea#message {
   font-weight: 500;
   font-family: "poppins", sans-serif;
 }
-textarea:focus, input:focus{
+textarea:focus,
+input:focus {
   outline: none;
 }
 .contact .text {
@@ -201,93 +209,120 @@ textarea:focus, input:focus{
   font-family: "poppins", sans-serif;
 }
 
-
-
 @media screen and (max-width: 768px) {
-  html, body{
+  html,
+  body {
     width: 100%;
   }
-  .landing .text{
+  .landing .text {
     width: 100%;
   }
-  h2, h3, p{
+  h2,
+  h3,
+  p {
     width: 100%;
   }
-  h2{
+  h2 {
     font-size: 48px;
   }
-  h3{
+  h3 {
     font-size: 24px;
   }
-  p{
+  p {
     font-size: 14px;
   }
-  .mission-img, .challenges-img, .image-features, .image-solutions{
+  .mission-img,
+  .challenges-img,
+  .image-features,
+  .image-solutions {
     display: none;
   }
-  .landing, .mission, .challenges, .solutions{
+  .landing,
+  .mission,
+  .challenges,
+  .solutions {
+    width: 100%;
+    height: 80vh;
+    justify-content: left;
+    align-items: center;
+    padding: 10%;
+  }
+  .features {
     width: 100%;
     height: 100vh;
     justify-content: left;
     align-items: center;
     padding: 10%;
   }
-  .features{
-    width: 100%;
-    height: 125vh;
-    justify-content: left;
-    align-items: center;
-    padding: 10%;
+  #solutions,
+  #challenges {
+    padding: 0;
   }
-  .mission .text{
+  .mission .text {
     width: 100%;
   }
-  .challenges .text{
+  .challenges .text {
     width: 100%;
     padding: 0;
   }
-  .solutions .text{
+  .solutions .text {
+    width: 100%;
+    /* margin-left: 0%; */
+    padding: 0;
+  }
+  .features .text {
     width: 100%;
   }
-  .features .text{
+  .contact .text {
     width: 100%;
   }
-  .contact .text{
-    width: 100%;
-  }
-  .contact{
+  .contact {
     width: 100%;
     height: 100vh;
     flex-direction: column;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     padding: 10%;
   }
-  .contact .form{
+  .contact .form {
     width: 100%;
   }
-  .contact .text h2{
+  .contact .text h2 {
     font-size: 42px;
   }
-  form{
+  form {
     width: 100%;
     padding: 5%;
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
+    margin-left: 15%;
   }
-  input#email, textarea#message{
+  input#email,
+  textarea#message {
     width: 100%;
   }
-  button.send{
+  button.send {
     margin-left: 45%;
   }
-  
- 
+}
 
+@media screen and (max-width: 1024px) {
+  .challenges-img {
+    width: 110%;
+    margin-bottom: 50%;
+  }
+  .challenges .text {
+    margin-right: 5%;
+  }
+  .solutions .text {
+    margin-left: 10%;
+  }
+  .image-solutions {
+    margin-right: 20%;
+  }
 }
 
 @media screen and (max-width: 360px) {
-  
 }
