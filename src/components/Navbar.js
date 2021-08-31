@@ -9,7 +9,7 @@ function Navbar(props){
         setNavbarOpen(!navbarOpen)
       }
     return(
-        <div>
+        <div className="navbar">
         <div className={classes.main} id="navbar">
             <ul className={classes.nav}>
                 <div className={classes.vl1}></div>
