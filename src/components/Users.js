@@ -2,12 +2,12 @@ import classes from "./Feature.css";
 function Users(){
     return(
         <ul className="ftr">
-                <li>Hi Users! Provide your targets with the key details about your next event.</li>
-                <li>The club can set up the event details like date, time slot and poster of the event. 
-                    Users have many options such as searching by category, 
-                    popularity etc., which means there is something on offer for everyone.</li>
-                <li>The user gets notifications about all upcoming activities; this way if 
-                    somebody books early enough then users who sign-up later won't miss.</li>
+                <li>There are a lot of events going on at VIT, find a curated list for your perfect match.</li>
+                <li>Scroll through all the events to find the event best suited for you without having to 
+                    click on and off different screens or scrolling endlessly! And now, with one single tap, 
+                    voila: The perfect event is right at your fingertips!</li>
+                <li>Filter through our list of events and with so many options it's hard not to have an eventful day 
+                    - we're right there with you in your quest for new things.</li>
         </ul>
     )
 }

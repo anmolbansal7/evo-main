@@ -1,4 +1,4 @@
-import classes from '../components/Next.module.css';
+// import classes from '../components/Next.module.css';
 import missions from '../Assets/missions.png';
 import './Page.css';
 import { Link } from 'react-scroll';
@@ -14,9 +14,9 @@ function Mission() {
                 <h2>MISSION</h2>
                 <h3>Find your niche at VIT</h3>
                 <p>
-                Our organization aims at bringing all the events <br />
-                from VIT's clubs right to your fingertips where you <br />
-                can not only view the details and timeliness but <br />
+                Our organization aims at bringing all the events
+                from VIT's clubs right to your fingertips where you
+                can not only view the details and timeliness but
                 also register for any event.
                 </p> 
                 <div className="btns">

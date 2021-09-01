@@ -10,7 +10,7 @@ import NavbarResp from './components/NavbarResp';
 
 function App(){
     return(
-        <div>
+        <div className="main">
             <Navbar></Navbar>
             <NavbarResp></NavbarResp>
             <Landing></Landing> 

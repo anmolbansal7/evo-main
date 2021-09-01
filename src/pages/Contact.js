@@ -55,6 +55,7 @@ function ContactForm() {
                 <h2>CONTACT US</h2>
                 <p>Slide into our DMs for anything you wanna know</p>
                 <SocialIcons></SocialIcons>
+                <div className="btns">
                 <Link
                     activeClass="active"
                     to="features"
@@ -64,6 +65,8 @@ function ContactForm() {
                     duration={500}>
                       <Back />
                   </Link>
+                </div>
+                
             </div>
             <div className="form">
             <form onSubmit={handleSubmit}>

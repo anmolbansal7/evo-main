@@ -1,4 +1,4 @@
-import classes from '../components/Next.module.css';
+// import classes from '../components/Next.module.css';
 import { Link } from 'react-scroll';
 import Next from '../components/Next.js';
 import Back from '../components/Back.js';
@@ -13,13 +13,11 @@ function Challenges() {
             </div>
             <div className="text">
                 <h2>CHALLENGE</h2>
-                <p>You're planning a killer event and have spent months <br />
-                    negotiating sponsorships, preparing speakers and <br />
-                    getting permissions. You prepare everything only to <br/>
-                    have your Event Marketing get lost among memes on <br />
-                    social media. <br />
-                    Market your event exclusively on Evo. <br />
-                    You worked so hard, You deserve to show off your work! 
+                <p>You're planning a killer event and have spent months
+                    negotiating sponsorships, preparing speakers and
+                    getting permissions. You prepare everything only to
+                    have your Event Marketing get lost among memes on
+                    social media.
                 </p>
                 <div className="btns">
                 <Link

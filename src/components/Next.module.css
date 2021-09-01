@@ -1,27 +1,57 @@
-.btn {
+.btn,
+.backbtn {
+  /* background-color: aqua; */
   display: flex;
   flex-direction: row;
   color: #fff;
-  width: 120px;
+  width: 105px;
   height: fit-content;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   cursor: pointer;
 }
+.backbtn {
+  flex-direction: row-reverse;
+}
 
-.btnp {
-  padding-right: 5%;
+.btnp p{
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  line-height: 36px;
+  align-self: center;
+}
+.backbtnp p{
   font-weight: 500;
   font-size: 24px;
   letter-spacing: 1.5px;
   line-height: 36px;
 }
 
-.box {
-  height: 100vh;
-  color: aquamarine;
+.sv{
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 h1 {
   margin: 0;
+}
+@media screen and (max-width: 360px) {
+  .btnp p,
+  .backbtnp p{
+    font-size: 20px;
+  }
+  .btn,
+  .backbtn {
+    width: 90px;
+  }
+}
+
+@media screen and  (min-width: 360px) and (max-width: 768px) {
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
 }

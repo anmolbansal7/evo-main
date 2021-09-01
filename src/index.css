@@ -27,8 +27,14 @@ scrollbar-width: none;  /* Firefox */
 }
 
 @media screen and (max-width: 768px){
-  html, body, .root{
-    width: 100%;
+  html, body{
+    width: 100vw;
     overflow-x: hidden;
   }
+}
+
+#root, .main{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
 }

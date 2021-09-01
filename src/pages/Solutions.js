@@ -1,4 +1,4 @@
-import classes from '../components/Next.module.css';
+// import classes from '../components/Next.module.css';
 import { Link } from 'react-scroll';
 import solutions from '../Assets/solutions.png';
 import './Page.css';
@@ -11,9 +11,9 @@ function Solutions(){
             <div className="text">
                 <h2>SOLUTIONS</h2>
                 <p>Evo helps one explore the best of the Events enabling 
-                    a full-fledged social experience with like-minded people.
+                    a full-fledged social experience with like-minded people.<br /><br />
                     Evo solves pain points associated with promotions, 
-                    like spam ignores and less reach, without sacrificing the club’s value. <br />
+                    like spam ignores and less reach, without sacrificing the club’s value.<br /><br />
                     This app exclusively focuses on making it accessible 
                     for users to search for an event of their interest.
                </p>

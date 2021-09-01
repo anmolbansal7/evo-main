@@ -1,9 +1,10 @@
 .header {
-  background-color: #181818;
-  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+  background: rgb(18, 18, 18, 0);
+  /* box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1); */
   position: fixed;
   width: 100%;
   z-index: 3;
+  /* backdrop-filter: blur(10px); */
 }
 
 .header ul {
@@ -14,33 +15,36 @@
   background-color: #181818;
   align-items: center;
   text-align: center;
-  height: 90vh;
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
 }
 
 .header li a {
   display: block;
-  padding: 20px 20px;
-  border-right: 1px solid #f4f4f4;
+  padding: 25px 20px;
+  /* border-right: 1px solid #f4f4f4; */
   text-decoration: none;
   color: white;
   align-items: center;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 20px;
   font-size: 18px;
 }
 
-.header li a:hover,
+/* .header li a:hover,
 .header .menu-btn:hover {
   background-color: #f4f4f4;
-}
+} */
 
-.header .logo {
+/* .header .logo {
   display: block;
   float: left;
   font-size: 2em;
   padding: 10px 20px;
   text-decoration: none;
-}
+} */
 
 /* menu */
 
@@ -59,6 +63,7 @@
   padding: 28px 20px;
   position: relative;
   user-select: none;
+  z-index: 5;
 }
 
 .header .menu-icon .navicon {
@@ -98,6 +103,9 @@
 .header .menu-btn:checked ~ .menu {
   max-height: 100vh;
 }
+.header .menu-btn:checked ~ .menu {
+  max-height: 100vh;
+}
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
   background: transparent;
@@ -115,7 +123,7 @@
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0;
 }
-@media (min-width: 768px) and (max-width: 1600px) {
+@media (min-width: 1024px) and (max-width: 1600px) {
   .responsivenav {
     display: none;
   }

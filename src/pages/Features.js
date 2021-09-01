@@ -1,4 +1,4 @@
-import classes from '../components/Next.module.css';
+// import classes from '../components/Next.module.css';
 import { Link } from 'react-scroll';
 import './Page.css'
 import features from '../Assets/features.svg';

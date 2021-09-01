@@ -2,7 +2,7 @@
 import './Page.css'
 import { Link } from 'react-scroll';
 import Next from '../components/Next.js';
-import Mission from './Mission.js';
+// import Mission from './Mission.js';
 import icon from '../Assets/icon.svg';
 
 function Landing (){
@@ -14,8 +14,9 @@ function Landing (){
                 <h3>Events Promotions Reimagined</h3>
                 <p>Are you tired of the same old event strategies?
                     <br />
-                    Check out Evo for an entirely new experience when <br />
+                    Check out Evo for an entirely new experience when 
                     it comes to scheduling your next big shindig.</p>
+                <div className="btns">
                 <Link
                     activeClass="active"
                     to="mission"
@@ -25,6 +26,7 @@ function Landing (){
                     duration={500}>
                     <Next />
                 </Link>
+                </div>
             </div>
         </div>
     )
