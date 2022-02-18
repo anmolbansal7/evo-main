@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9e0eedf5.chunk.css",
+    "main.js": "/static/js/main.4291f43e.chunk.js",
+    "main.js.map": "/static/js/main.4291f43e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.83dc6e43.js",
+    "runtime-main.js.map": "/static/js/runtime-main.83dc6e43.js.map",
+    "static/js/2.5142a407.chunk.js": "/static/js/2.5142a407.chunk.js",
+    "static/js/2.5142a407.chunk.js.map": "/static/js/2.5142a407.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.9e0eedf5.chunk.css.map": "/static/css/main.9e0eedf5.chunk.css.map",
+    "static/js/2.5142a407.chunk.js.LICENSE.txt": "/static/js/2.5142a407.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/MADESoulmaze.849e00c2.otf",
+    "static/media/Page.css": "/static/media/bg.8dc63472.png",
+    "static/media/challenges.74414e56.png": "/static/media/challenges.74414e56.png",
+    "static/media/features.d1652789.svg": "/static/media/features.d1652789.svg",
+    "static/media/icon.72815679.svg": "/static/media/icon.72815679.svg",
+    "static/media/missions.f4864521.png": "/static/media/missions.f4864521.png",
+    "static/media/solutions.49700c87.png": "/static/media/solutions.49700c87.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.83dc6e43.js",
+    "static/js/2.5142a407.chunk.js",
+    "static/css/main.9e0eedf5.chunk.css",
+    "static/js/main.4291f43e.chunk.js"
+  ]
+}
