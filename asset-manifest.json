@@ -1,27 +1,20 @@
 {
   "files": {
-    "main.css": "/evo-main/static/css/main.fe55a95b.chunk.css",
-    "main.js": "/evo-main/static/js/main.cc266d79.chunk.js",
-    "main.js.map": "/evo-main/static/js/main.cc266d79.chunk.js.map",
-    "runtime-main.js": "/evo-main/static/js/runtime-main.970b421e.js",
-    "runtime-main.js.map": "/evo-main/static/js/runtime-main.970b421e.js.map",
-    "static/js/2.5142a407.chunk.js": "/evo-main/static/js/2.5142a407.chunk.js",
-    "static/js/2.5142a407.chunk.js.map": "/evo-main/static/js/2.5142a407.chunk.js.map",
-    "index.html": "/evo-main/index.html",
-    "static/css/main.fe55a95b.chunk.css.map": "/evo-main/static/css/main.fe55a95b.chunk.css.map",
-    "static/js/2.5142a407.chunk.js.LICENSE.txt": "/evo-main/static/js/2.5142a407.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/evo-main/static/media/MADESoulmaze.849e00c2.otf",
-    "static/media/Page.css": "/evo-main/static/media/bg.8dc63472.png",
-    "static/media/challenges.74414e56.png": "/evo-main/static/media/challenges.74414e56.png",
-    "static/media/features.bfd3de27.svg": "/evo-main/static/media/features.bfd3de27.svg",
-    "static/media/icon.04cc3661.svg": "/evo-main/static/media/icon.04cc3661.svg",
-    "static/media/missions.f4864521.png": "/evo-main/static/media/missions.f4864521.png",
-    "static/media/solutions.49700c87.png": "/evo-main/static/media/solutions.49700c87.png"
+    "main.css": "/static/css/main.94e5fb06.css",
+    "main.js": "/static/js/main.634f7ced.js",
+    "static/media/bg.png": "/static/media/bg.8dc63472ef9059012b17.png",
+    "static/media/missions.png": "/static/media/missions.f48645217b1ad8089142.png",
+    "static/media/challenges.png": "/static/media/challenges.74414e56161d1b2cbfe1.png",
+    "static/media/features.svg": "/static/media/features.bfd3de27b36f4429be61d5cdbcb72892.svg",
+    "static/media/solutions.png": "/static/media/solutions.49700c8758570a62153c.png",
+    "static/media/MADESoulmaze.otf": "/static/media/MADESoulmaze.849e00c2c7fb401c5388.otf",
+    "static/media/icon.svg": "/static/media/icon.04cc3661a0df1efd9f8ff34cd0505b89.svg",
+    "index.html": "/index.html",
+    "main.94e5fb06.css.map": "/static/css/main.94e5fb06.css.map",
+    "main.634f7ced.js.map": "/static/js/main.634f7ced.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.970b421e.js",
-    "static/js/2.5142a407.chunk.js",
-    "static/css/main.fe55a95b.chunk.css",
-    "static/js/main.cc266d79.chunk.js"
+    "static/css/main.94e5fb06.css",
+    "static/js/main.634f7ced.js"
   ]
 }
