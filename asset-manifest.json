@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.94e5fb06.css",
-    "main.js": "/static/js/main.634f7ced.js",
-    "static/media/bg.png": "/static/media/bg.8dc63472ef9059012b17.png",
-    "static/media/missions.png": "/static/media/missions.f48645217b1ad8089142.png",
-    "static/media/challenges.png": "/static/media/challenges.74414e56161d1b2cbfe1.png",
-    "static/media/features.svg": "/static/media/features.bfd3de27b36f4429be61d5cdbcb72892.svg",
-    "static/media/solutions.png": "/static/media/solutions.49700c8758570a62153c.png",
-    "static/media/MADESoulmaze.otf": "/static/media/MADESoulmaze.849e00c2c7fb401c5388.otf",
-    "static/media/icon.svg": "/static/media/icon.04cc3661a0df1efd9f8ff34cd0505b89.svg",
-    "index.html": "/index.html",
-    "main.94e5fb06.css.map": "/static/css/main.94e5fb06.css.map",
-    "main.634f7ced.js.map": "/static/js/main.634f7ced.js.map"
+    "main.css": "/evo-main/static/css/main.5c6b94ee.css",
+    "main.js": "/evo-main/static/js/main.3c8eac48.js",
+    "static/media/bg.png": "/evo-main/static/media/bg.8dc63472ef9059012b17.png",
+    "static/media/missions.png": "/evo-main/static/media/missions.f48645217b1ad8089142.png",
+    "static/media/challenges.png": "/evo-main/static/media/challenges.74414e56161d1b2cbfe1.png",
+    "static/media/features.svg": "/evo-main/static/media/features.bfd3de27b36f4429be61d5cdbcb72892.svg",
+    "static/media/solutions.png": "/evo-main/static/media/solutions.49700c8758570a62153c.png",
+    "static/media/MADESoulmaze.otf": "/evo-main/static/media/MADESoulmaze.849e00c2c7fb401c5388.otf",
+    "static/media/icon.svg": "/evo-main/static/media/icon.04cc3661a0df1efd9f8ff34cd0505b89.svg",
+    "index.html": "/evo-main/index.html",
+    "main.5c6b94ee.css.map": "/evo-main/static/css/main.5c6b94ee.css.map",
+    "main.3c8eac48.js.map": "/evo-main/static/js/main.3c8eac48.js.map"
   },
   "entrypoints": [
-    "static/css/main.94e5fb06.css",
-    "static/js/main.634f7ced.js"
+    "static/css/main.5c6b94ee.css",
+    "static/js/main.3c8eac48.js"
   ]
 }
